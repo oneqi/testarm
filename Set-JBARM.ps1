@@ -29,7 +29,7 @@
 
 	
 	
-		2{Write-Host "Checking the regions available" -Foreground "yellow"
+		2{Write-Host "Checking the regions available .. for resources check https://azure.microsoft.com/en-gb/regions/services" -Foreground "yellow"
 
 			((Get-AzureRmResourceProvider -ProviderNamespace "Microsoft.Network").ResourceTypes | `
             Where-Object {$_.ResourceTypeName -eq "virtualNetworks"}).Locations | sort	
