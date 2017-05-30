@@ -1,5 +1,4 @@
-TESTARM
-===
+# testarm
 
 This is a simple powershell script used in Azure RM
 
